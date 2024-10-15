@@ -39,7 +39,7 @@ public class DataTypeDemo {
 		
 		//String 
 		String name="john";
-		
+		//
 		
 	}
 }
