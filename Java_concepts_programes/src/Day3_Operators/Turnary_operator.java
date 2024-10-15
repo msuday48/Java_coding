@@ -10,7 +10,7 @@ public class Turnary_operator {
 		 int res=(a>b)?a:b;
 		 System.out.println(res);
 		 
-		
+		//
 		//Ex2
 		int person_age=20;
 		
