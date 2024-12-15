@@ -11,7 +11,7 @@ public class Number_positive_Negetive_zero {
         } else if (num < 0) {
             System.out.println("Number is negative");
         } else {
-            System.out.println("Number is zero");
+            System.out.println("Nujmber is zero");
         }
     }
 }
