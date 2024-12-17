@@ -9,7 +9,6 @@ public class Even_or_number {
 		System.out.println("even number");	
 	}
 		else {
-			
 			System.out.println("Odd number");
 		}
 		

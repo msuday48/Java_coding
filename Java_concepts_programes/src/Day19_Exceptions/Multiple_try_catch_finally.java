@@ -33,7 +33,5 @@ public class Multiple_try_catch_finally {
         finally{
             System.out.println("finally block executed 03");
         }
-
     }
-
 }
