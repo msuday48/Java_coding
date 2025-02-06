@@ -2,12 +2,11 @@ package Java_concepts_programes.src.Day6_Single_Dimension_Array;
 
 public class Two_Dimensional_Arrays {
 
-  public static void main(String[]args){
-
+  public static void main(String[]args) {
       //declaration
-/*
-      //Aproach
-      int a[][]=new int [3][2];
+
+     /* //Aproach
+      int ab[][]=new int [3][2];
       //adding values
       a[0][0]=100;
       a[0][1]=200;
@@ -17,13 +16,14 @@ public class Two_Dimensional_Arrays {
 
       a[2][0]=500;
       a[2][1]=600;
-        */
+
+      */
 
       //Approach2:declaration+adding values
       int a[][]= {
-              {100,200,300},
-              {400,500,600},
-              {700,800,1000}
+              {100,200},
+              {300,400},
+              {500,600}
                   };
       //3)Find size of an array
       System.out.println(a.length);// returns number of rows 3
@@ -42,7 +42,6 @@ public class Two_Dimensional_Arrays {
       }
       System.out.println();
   }
-
       //Enhanced for loop
       for(int arr[]:a){
           for (int x:arr){
@@ -51,3 +50,6 @@ public class Two_Dimensional_Arrays {
           System.out.println();
       }
 }}
+
+
+

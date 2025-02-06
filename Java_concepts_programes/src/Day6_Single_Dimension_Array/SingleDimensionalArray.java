@@ -9,7 +9,7 @@ public class SingleDimensionalArray {
         // Find size of an array
         //read single value from array
         // read multiple values from an array
-
+//int a[]=new int[5];
 
         //1)Declaring array
         //approach1:declaration
@@ -36,14 +36,12 @@ public class SingleDimensionalArray {
        System.out.println(Arrays.toString(a));
 
         for(int i=0;i<a.length-1;i++)
-        {
             System.out.println(i);//prints only array index  0 1 2 3
-         System.out.println(a[i]);  //prints array values 10 20 30 40
+        // System.out.println(a[i]);  //prints array values 10 20 30 40
     }
-
         //for each loop
-
+/*
         for (int value:a){
             System.out.println(value); //prints array values 10 20 30 40 50
-        }
-}}
+        }*/
+}
