@@ -1,4 +1,4 @@
-package Java_concepts_programes.src.Day6_Single_Dimension_Array;
+package Java_concepts_programes.src.Day6_Arrays;
 
 public class Two_Dimensional_Arrays {
 
