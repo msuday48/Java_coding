@@ -1,11 +1,13 @@
-package Java_concepts_programes.src.Day21_collections;
+package Java_concepts_programes.src.Day21_collections.Map;
 
 import java.util.HashMap;
-import java.util.Optional;
 
 public class HahMapDemo {
 public static void main(String[]args) {
-
+/*Internally uses Hashing (similar to Hashtable in Java).
+Not Synchronized (unlike Hashtable in Java) and hence faster for most of the cases.
+Allows to store the null keys as well, but there should be only one null key object and there can be any number of null values.
+Duplicate Elements not allowed in HashMap, if you try to insert the duplicate key in HashMap, it will replace the element of the corresponding key.*/
     //declaration
     HashMap map = new HashMap();
 

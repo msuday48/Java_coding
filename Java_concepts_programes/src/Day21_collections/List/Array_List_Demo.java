@@ -1,7 +1,9 @@
 package Java_concepts_programes.src.Day21_collections.List;
 
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Array_List_Demo {
 
@@ -52,8 +54,6 @@ public class Array_List_Demo {
             System.out.println(x);
         }
 
-
-
         //Using iterator
         Iterator <Object> it=mylist.iterator();
 
@@ -69,4 +69,5 @@ public class Array_List_Demo {
         mylist.removeAll(mylist2);
 
         System.out.println(mylist);
+
     }}

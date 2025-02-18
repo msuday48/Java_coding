@@ -10,6 +10,11 @@ public class HashCodeDemo {
     public static void main(String[]args){
 
  //Declaration
+         /*Uses a HashMap internally
+Does not maintain insertion order
+Does not allow duplicate values
+Allows null values (Only one null element)
+Not synchronized (Not thread-safe)*/
 
         //HashSet myset=new HashSet();
         Set myset=new HashSet();
