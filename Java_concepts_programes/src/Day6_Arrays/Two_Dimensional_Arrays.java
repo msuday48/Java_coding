@@ -6,7 +6,7 @@ public class Two_Dimensional_Arrays {
       //declaration
 
      /* //Aproach
-      int ab[][]=new int [3][2];
+      int ab[][]=new int [2][2];
       //adding values
       a[0][0]=100;
       a[0][1]=200;
@@ -31,7 +31,7 @@ public class Two_Dimensional_Arrays {
 
       //4) read single value from an array
       System.out.println(a[1][1]); //400
-      System.out.println(a[2][1]); //800
+      System.out.println(a[2][1]); //600
 
       //5)reading data from 2D array
       for(int i=0;i<a.length-1;i++)

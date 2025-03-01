@@ -1,4 +1,4 @@
-package Java_concepts_programes.src.Logical_Programes;
+package Java_concepts_programes.src.Logical_Programes.Arrays;
 
 import java.util.Scanner;
 

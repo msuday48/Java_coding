@@ -35,13 +35,13 @@ public class SingleDimensionalArray {
         // 5)read multiple values from an array
        System.out.println(Arrays.toString(a));
 
-        for(int i=0;i<a.length-1;i++)
-            System.out.println(i);//prints only array index  0 1 2 3
+       /* for(int i=0;i<a.length-1;i++){
+            System.out.println(i);//prints only array index  0 1 2 3 4
         // System.out.println(a[i]);  //prints array values 10 20 30 40
-    }
+    }*/
         //for each loop
-/*
+
         for (int value:a){
             System.out.println(value); //prints array values 10 20 30 40 50
-        }*/
-}
+        }
+}}
