@@ -19,4 +19,3 @@ public class EqualsVsDoubleEquals {
             System.out.println(s3.equals(s4)); // true (Content is the same)
         }
     }
-

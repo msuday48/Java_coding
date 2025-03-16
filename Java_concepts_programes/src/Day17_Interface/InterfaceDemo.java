@@ -7,7 +7,7 @@ interface Shape
     int width = 20;   // This is also final and static by default.
 
     // Abstract method (must be implemented by a class that implements this interface).
-    void circle();
+    void circle(int a);
 
     // Default method (can have a body, does not need to be overridden).
     default void square()
@@ -26,9 +26,9 @@ interface Shape
 public class InterfaceDemo implements Shape
 {
     // Overriding the abstract method from the "Shape" interface
-    public void circle()
+    public void circle(int a)
     {
-        System.out.println("This is circle - abstract method...");
+        System.out.println("This is circle - abstract method..."+(a+a));
     }
 
     // Class-specific method (not part of the interface)
@@ -46,7 +46,7 @@ public class InterfaceDemo implements Shape
         // Creating an object of InterfaceDemo
         InterfaceDemo idobj = new InterfaceDemo();
 
-        idobj.circle();  // Calls overridden abstract method from InterfaceDemo
+        idobj.circle(10);  // Calls overridden abstract method from InterfaceDemo
         idobj.square();  // Calls default method from the interface (not overridden in class)
 
         // Calling static method from interface (must be called using interface name)
@@ -66,7 +66,7 @@ public class InterfaceDemo implements Shape
         // Creating an object with a reference of type "Shape"
         Shape sh = new InterfaceDemo(); // Dynamic method dispatch
 
-        sh.circle();  // Calls overridden method in InterfaceDemo (Runtime Polymorphism)
+        sh.circle(10);  // Calls overridden method in InterfaceDemo (Runtime Polymorphism)
         sh.square();  // Calls default method from interface
 
         // Static method cannot be accessed using an interface reference
