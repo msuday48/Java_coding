@@ -8,17 +8,16 @@ public class palindrome_String {
         System.out.println("Enter your String");
 
         String str = sc.nextLine();
-        String org_str = str;
-        String rev = "";
+        String pal_string = str;
 
-        int len = str.length();
+        StringBuilder rev = new  StringBuilder(str);
+        rev.reverse();
+        rev.toString();
 
-        for (int i = len - 1; i >= 0; i--) {
-            rev = rev + str.charAt(i);
+        if (pal_string.equals(rev)){
+            System.out.println("palindrome string : "+pal_string);
         }
-        if (org_str.equals(rev)) {
-            System.out.println(org_str + " is a palindrome string");
-        } else
-        {
-            System.out.println(org_str + " is not a palindrome string");
-        }}}
+else{
+    System.out.println("not -palindrome string : "+ pal_string);
+        }
+    }}

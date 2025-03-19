@@ -4,7 +4,7 @@ package Java_concepts_programes.src.Day17_Interface.Abstraction;
 // Observation
 import java.io.*;
 
-abstract class Demo {
+public abstract class Demo {
     abstract void m1();
     abstract void m2();
     abstract void m3();

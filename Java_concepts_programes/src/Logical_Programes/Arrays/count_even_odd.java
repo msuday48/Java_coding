@@ -25,7 +25,6 @@ public class count_even_odd {
 
         System.out.println("Even digits count: " + even_count);
         System.out.println("Odd digits count: " + odd_count);
-
         sc.close();
     }
 }

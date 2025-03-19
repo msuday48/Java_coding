@@ -1,6 +1,8 @@
 package Java_concepts_programes.src.Day21_collections.Map;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class HahMapDemo {
 public static void main(String[]args) {
@@ -35,10 +37,22 @@ Duplicate Elements not allowed in HashMap, if you try to insert the duplicate ke
     //Using for each loop
     //get all the keys from hashmap
 
-   /*
+
     for(int k:hm.keySet())
     {
    System.out.println(k+" "+hm.get(k));
     }
-    */
+
+    Iterator<Map.Entry<Integer, String>> it=hm.entrySet().iterator();
+
+    while(it.hasNext())
+    {
+        Map.Entry<Integer,String> entry=it.next();
+        System.out.println(entry.getKey()+"     "+entry.getValue());
+    }
+
+    hm.clear();
+    System.out.println(hm.isEmpty());
+
+
 }}

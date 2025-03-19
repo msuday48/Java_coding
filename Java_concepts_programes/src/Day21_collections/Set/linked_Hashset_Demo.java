@@ -19,3 +19,29 @@ Internal Implementation: Extends HashSet and uses a LinkedHashMap internally.*/
         set.add(10);    //Duplicate, will not be added
         System.out.println(set);
 }}
+
+
+/*int max=a[0];
+		for(int i=1;i<a.length;i++)
+        {
+        if(a[i]>max)
+        {
+max=a[i];
+        }
+        }
+        System.out.println("max of array value : "+ max);
+
+// minimum
+int b[ ]={50,10,40,2,60};
+
+int min=b[0];
+
+		for(int i=1;i<b.length;i++)
+        {
+        if(b[i]<min)
+        {
+
+min=b[i];
+        }
+        }
+        System.out.println("max of array value : "+ min);*/

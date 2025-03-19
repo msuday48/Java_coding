@@ -3,7 +3,8 @@
 public class Max_Min_Array
 {
    public static void main(String[]args){
-    int a[]={50,10,40,20,60};
+
+   /* int a[]={50,10,40,20,60};
 
     int max=a[0];
 		for(int i=1;i<a.length;i++)
@@ -28,5 +29,5 @@ public class Max_Min_Array
             min=b[i];
         }
     }
-		System.out.println("max of array value : "+ min);
+		System.out.println("max of array value : "+ min);*/
 }}
