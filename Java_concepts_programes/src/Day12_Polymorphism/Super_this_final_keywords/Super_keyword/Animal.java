@@ -2,7 +2,6 @@ package Java_concepts_programes.src.Day12_Polymorphism.Super_this_final_keywords
 
 // Package declaration
 
-
 // Parent class Animal
 public class Animal {
     // Instance variable of parent class

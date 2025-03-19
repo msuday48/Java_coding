@@ -6,15 +6,23 @@ public class Count_numbers {
  public static void main(String[]args){
    Scanner sc=new Scanner(System.in);
 
-     System.out.println("enter number");
+     System.out.println("enter array elements number");
 
-    int num=sc.nextInt();
+ int n=sc.nextInt();
+ int [] no=new int[n];
 
-    int count=0;
+     System.out.println("enter array elements " + n);
+ for (int i=0;i<n;i++){
+     no[i]=sc.nextInt();
+ }
+ int sum=0 , count=0;
+ for(int k:no){
+    sum +=k;
 
-    while(num>0){
-        num=num/10;
-        count++;
-    }
-    System.out.println(count);
+  count++;
+ }
+     System.out.println("sum of array elements : " + count);
+
+ System.out.println("sum of array elements : "+sum);
+
 }}

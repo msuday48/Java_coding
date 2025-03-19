@@ -1,33 +1,43 @@
+
  package Java_concepts_programes.src.Logical_Programes.Arrays;
 
-public class Max_Min_Array
+ import java.util.Scanner;
+
+ public class Max_Min_Array
 {
    public static void main(String[]args){
 
-   /* int a[]={50,10,40,20,60};
+         Scanner sc = new Scanner(System.in);
 
-    int max=a[0];
-		for(int i=1;i<a.length;i++)
-    {
-        if(a[i]>max)
-        {
-            max=a[i];
-        }
-    }
-		System.out.println("max of array value : "+ max);
+         // Take input for array size
+         System.out.println("Enter the number of elements:");
+         int n = sc.nextInt();
 
-    // minimum
-    int b[ ]={50,10,40,2,60};
+         int[] no = new int[n]; // Declare array
 
-    int min=b[0];
+         // Take array input from user
+         System.out.println("Enter " + n + " elements:");
+         for (int i = 0; i < n; i++) {
+            no[i] = sc.nextInt();
+         }
 
-		for(int i=1;i<b.length;i++)
-    {
-        if(b[i]<min)
-        {
+         // Initialize max and min with the first element of the array
+         int max = no[0];
+         int min = no[0];
 
-            min=b[i];
-        }
-    }
-		System.out.println("max of array value : "+ min);*/
+         // Find max and min values in the array
+         for (int i = 1; i < n; i++) {
+            if (no[i] > max) {
+               max = no[i]; // Update max
+            }
+            if (no[i] < min) {
+               min = no[i]; // Update min
+            }
+         }
+
+         // Print results
+         System.out.println("Max number: " + max);
+         System.out.println("Min number: " + min);
+
+         sc.close();
 }}
