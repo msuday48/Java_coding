@@ -12,7 +12,7 @@ public class Even_Odd_Number_InArray {
        {
        if (value%2==0)
        {
-
+//
 even++;
        }
        else{
