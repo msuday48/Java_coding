@@ -10,7 +10,7 @@ public abstract class Demo {
     abstract void m3();
 }
 
-abstract class FirstChild extends Demo {
+abstract  class FirstChild extends Demo {
     public void m1() {
         System.out.println("Inside m1");
     }

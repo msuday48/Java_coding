@@ -17,7 +17,7 @@ public class Reverse_String {
 
             System.out.println("Reversed string: " + rev);
 
-            // Correct way to check palindrome
+           // Correct way to check palindrome
             if (org_str.equals(rev.toString())) {
                 System.out.println(org_str + " is a palindrome string.");
             } else {
@@ -25,5 +25,7 @@ public class Reverse_String {
             }
 
             sc.close(); // Close the scanner to prevent memory leak
+
+
         }
     }
