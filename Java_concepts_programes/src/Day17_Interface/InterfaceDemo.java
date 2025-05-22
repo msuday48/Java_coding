@@ -1,6 +1,8 @@
 package Java_concepts_programes.src.Day17_Interface;
 // Defining an interface named "Shape"
-interface Shape
+interface
+
+Shape
 {
     // Interface variables are always public, static, and final (constants).
     int length = 10;  // This is final and static by default.
