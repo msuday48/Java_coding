@@ -1,3 +1,5 @@
+
+
 package Java_concepts_programes.src.Logical_Programes.Arrays;
 
 import java.util.Scanner;
@@ -46,3 +48,4 @@ public class Arrays2_common_elements {
         sc.close();
     }
 }
+

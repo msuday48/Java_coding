@@ -1,4 +1,4 @@
-package Java_concepts_programes.src.Logical_Programes.Arrays;
+package Java_concepts_programes.src.Logical_Programes.Strings;
 
 public class Duplicate_elements_in_array {
 

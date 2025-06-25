@@ -11,7 +11,6 @@ public class Factorial_number {
         for(int i=1;1<num;i++){
             factorial=factorial*1;
         }
-
         System.out.println("factoril of given number"+ factorial);
     }
 }

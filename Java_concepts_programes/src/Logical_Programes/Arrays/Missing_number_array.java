@@ -1,34 +1,26 @@
 package Java_concepts_programes.src.Logical_Programes.Arrays;
 
 public class Missing_number_array {
-
     public static void main(String[] args) {
-    /*
-    Array should not have duplicates
-    Array No need to be sorted order
-    Values should be in range
-    */
+        /*
+        Array should not have duplicates
+        Array need not be sorted
+        Values should be in range from 1 to N (here, N = 5)
+        */
 
-        int a[] = {1, 2, 4, 5};
-
-        //1+2+4+5=12 sum1
-        //1+2+3+4+5=15
-
-        //Sum2-sum1=15-12=3 missing
+        int[] a = {1, 2, 4, 5};  // 3 is missing
 
         int sum1 = 0;
-
         for (int i = 0; i < a.length; i++) {
-            sum1 = sum1 + a[i];
+            sum1 += a[i];  // sum of array elements
         }
 
-        int sum2=0;
-        for(int i=1;i<5;i++){
-            sum2=sum2+i;
+        int n = 5; // full range is 1 to 5
+        int sum2 = 0;
+        for (int i = 1; i <= n; i++) {
+            sum2 += i;  // expected sum from 1 to 5
         }
 
-        System.out.println("sum of an array" + sum2);
-
-        System.out.println("sum of an array" + (sum2-sum1));
+        System.out.println("Missing number in the array: " + (sum2 - sum1));
     }
 }

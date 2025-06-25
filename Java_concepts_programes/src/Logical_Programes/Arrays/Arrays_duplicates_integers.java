@@ -20,14 +20,13 @@ public class Arrays_duplicates_integers {
         for (int i = 0; i < n; i++) {
             no[i] = sc.nextInt();
         }
-
-        Set<Integer> ss = new HashSet<Integer>();
-
-        for (int st : no) {
-            if (!ss.add(st)) {
-                System.out.println("Duplicate element: " + st);
+            for(int i=0;i<n;i++){
+                for(int j=i+1;j<n;j++){
+                    if(no[i]==no[j]){
+                        System.out.println("Found Duplicate Element:" + no[i]);
+                    }
+                }
             }
+                System.out.println("Duplicates not found");
+      }
         }
-    }
-
-}

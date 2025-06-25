@@ -18,13 +18,10 @@ public class Arrays_sum {
 
         // Calculate sum
         int sum = 0;
-        for (int s : a) {
-            sum += s;
-        }
-
+        for (int i=0;i<n;i++){
+             sum+=a[i];
         // Print sum
-        System.out.println("Sum of array elements: " + sum);
-
         sc.close();
     }
-}
+        System.out.println("Sum of array elements: " + sum);
+}}
