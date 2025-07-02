@@ -41,7 +41,7 @@ Duplicate Elements not allowed in HashMap, if you try to insert the duplicate ke
     {
    System.out.println(k+" "+hm.get(k));
     }
-
+//
     Iterator<Map.Entry<Integer, String>> it=hm.entrySet().iterator();
 
     while(it.hasNext())
