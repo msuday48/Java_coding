@@ -37,7 +37,6 @@ Duplicate Elements not allowed in HashMap, if you try to insert the duplicate ke
     //Using for each loop
     //get all the keys from hashmap
 
-
     for(int k:hm.keySet())
     {
    System.out.println(k+" "+hm.get(k));
@@ -53,6 +52,4 @@ Duplicate Elements not allowed in HashMap, if you try to insert the duplicate ke
 
     hm.clear();
     System.out.println(hm.isEmpty());
-
-
 }}

@@ -9,23 +9,20 @@ public class Reverse_String {
 
             System.out.println("Enter a string:");
             String str = sc.nextLine();
+            String rev= "";
             String org_str = str;
 
-            // Use StringBuilder for better performance
-            StringBuilder rev = new StringBuilder(str);
-            rev.reverse();
-
-            System.out.println("Reversed string: " + rev);
-
-           // Correct way to check palindrome
-            if (org_str.equals(rev.toString())) {
-                System.out.println(org_str + " is a palindrome string.");
-            } else {
-                System.out.println(org_str + " is not a palindrome string.");
+            for(int i=str.length()-1;i>=0;i--){
+                rev=rev+str.charAt(i);
             }
 
-            sc.close(); // Close the scanner to prevent memory leak
+            System.out.println("Reversed string is : "+rev);
 
+            if(org_str==rev){
+            System.out.println("palindrome string");
+            }
+            else{
+                System.out.println("not palindrome string");
+            }
 
-        }
-    }
+        }}
