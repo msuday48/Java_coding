@@ -8,6 +8,7 @@ public class check_prime_number {
         //prime_number =which as only 2 factors 1 and itself and divisible by 1 and itself no
         //19-> 1 and 19 -> prime number
         //28 -> 1,2,4,7 -> Not a prime number
+
         int num = 3;
         int count = 0;
 

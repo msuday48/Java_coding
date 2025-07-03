@@ -13,6 +13,7 @@
          System.out.println("Enter the number of elements:");
          int n = sc.nextInt();
 
+
          int[] no = new int[n]; // Declare array
 
          // Take array input from user
