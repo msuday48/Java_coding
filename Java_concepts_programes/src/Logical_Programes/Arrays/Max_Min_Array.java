@@ -23,6 +23,9 @@
          }
 
          // Initialize max and min with the first element of the array
+
+
+
          int max = no[0];
          int min = no[0];
 

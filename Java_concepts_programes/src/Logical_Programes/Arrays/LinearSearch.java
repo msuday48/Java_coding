@@ -26,7 +26,7 @@ System.out.println("enter array elements : "+ n);
 
         for(int i=0;i<n;i++){
 
-            if(search_ele==no[i]){
+            if(no[i]==search_ele){
                 System.out.println("Element found : "+no[i]);
                 flag=true;
                 break;
