@@ -4,22 +4,27 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+import static jdk.internal.icu.text.UTF16.getCharCount;
+
 public class Find_Occurence_of_each_charecters {
 
+    public static void getCharCount(String name) {
+        Map<Character, Integer> charMap = new HashMap<Character, Integer>();
+
+        char[] strArray = name.toCharArray();
+for(char c:strArray)
+if(charMap.containsKey(c)){
+    charMap.put(c,charMap.get(c)+1);
+}
+else{
+    charMap.put(c,1);
+}
+
+System.out.println(name+ " "+ charMap);
+    }
+
+
     public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
-
-        System.out.println("Enter arrayString");
-
-        String userInput=sc.nextLine().toLowerCase().replace("\\s"," ");
-
-        Map<Character,Integer> map=new HashMap<>();
-
-        char[] ch=userInput.toCharArray();
-
-        for(char c:ch){
-            map.put(c,map.getOrDefault(c,0)+1);
-        }
-        System.out.println(map);
+    getCharCount("test")  ;
     }
 }

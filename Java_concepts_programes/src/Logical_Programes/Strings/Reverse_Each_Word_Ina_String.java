@@ -15,15 +15,14 @@ public class Reverse_Each_Word_Ina_String {
         String reverseString=" ";
 
         for(String s:words){
-            String reversewords="";
+            String rev="";
 
             for(int i=s.length()-1;i>=0;i--){
-                reversewords=reversewords+s.charAt(i);
+                rev=rev+s.charAt(i);
             }
-            reverseString=reverseString+reversewords+" ";
+            reverseString=reverseString+rev+" ";
         }
 
 System.out.println(reverseString);
-
     }
 }

@@ -8,13 +8,16 @@ public class Duplicates_in_StringArray {
 
         String str[] = {"java", "python", "selenium", "java"};
 
-        Set<String> ss = new HashSet<String>();
+for(int i=0;i<str.length;i++)
+{
+    for(int j=i+1;j<str.length;j++){
 
-        for (String st : str) {
-            if (!ss.add(st)) {  // Fixed missing closing parenthesis
-                System.out.println("Duplicate element: " + st);
-            }
+        if (str[i].equals(str[j])) {
+            System.out.println(str[i]);
+            break; // break to avoid printing the same duplicate multiple times
         }
+    }
+}
     }
 }
 
