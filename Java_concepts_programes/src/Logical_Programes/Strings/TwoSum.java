@@ -24,7 +24,7 @@ public class TwoSum {
     }
 
     public static void main(String[]args){
-        int nums[]={2,11,5,4};
+        int nums[]={4,12,5,3};
         int target = 9;
 
         int result[]= findTwoSum(nums,target);

@@ -12,15 +12,15 @@ public class Missing_number_array {
 
         int sum1 = 0;
         for (int i = 0; i < a.length; i++) {
-            sum1 += a[i];  // sum of array elements
+            sum1 += a[i];  // sum of array elements 12
         }
 
         int n = 5; // full range is 1 to 5
         int sum2 = 0;
         for (int i = 1; i <= n; i++) {
-            sum2 += i;  // expected sum from 1 to 5
+            sum2 += i;  // expected sum from 1 to 5  =15
         }
 
-        System.out.println("Missing number in the array: " + (sum2 - sum1));
+        System.out.println("Missing number in the array: " + (sum2 - sum1)); //12-15=3
     }
 }
