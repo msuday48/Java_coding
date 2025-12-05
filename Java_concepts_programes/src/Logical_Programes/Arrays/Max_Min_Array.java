@@ -13,7 +13,6 @@
          System.out.println("Enter the number of elements:");
          int n = sc.nextInt();
 
-
          int[] no = new int[n]; // Declare array
 
          // Take array input from user
@@ -23,8 +22,6 @@
          }
 
          // Initialize max and min with the first element of the array
-
-
 
          int max = no[0];
          int min = no[0];

@@ -14,7 +14,10 @@ public class duplicates_in_string {
                 if (carray[i] == carray[j]) {
                     System.out.print(carray[j] + " ");
                     break;
+
                 }
             }
         }
     }}
+
+

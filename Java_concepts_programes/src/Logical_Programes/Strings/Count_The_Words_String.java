@@ -25,6 +25,8 @@ public class Count_The_Words_String {
             }
         }
 
+
+
         System.out.println("Number of words in the string: " + count);
         sc.close();
     }

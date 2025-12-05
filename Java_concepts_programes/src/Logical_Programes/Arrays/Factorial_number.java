@@ -12,6 +12,7 @@ public class Factorial_number {
             factorial = factorial * i;
         }
 
+
         System.out.println("Factorial of given number: " + factorial);
     }
 }

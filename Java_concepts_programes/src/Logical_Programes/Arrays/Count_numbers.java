@@ -17,8 +17,8 @@ public class Count_numbers {
  }
  int sum=0 , count=0;
 
- for(int k:no){
-    sum +=k;
+ for(int i=0;i<n;i++){
+    sum +=no[i];
 
   count++;
  }

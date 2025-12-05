@@ -2,6 +2,7 @@ package Java_concepts_programes.src.Logical_Programes.Strings;
 
 import java.util.Scanner;
 
+
 public class palindrome_String {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
