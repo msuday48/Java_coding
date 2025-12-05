@@ -31,7 +31,6 @@ public class generic_programe1 {
     }*/
 
 
-
 }
 
 class Almond {
