@@ -21,6 +21,7 @@ public class Reverse_String {
             if(org_str==rev){
             System.out.println("palindrome string");
             }
+
             else{
                 System.out.println("not palindrome string");
             }

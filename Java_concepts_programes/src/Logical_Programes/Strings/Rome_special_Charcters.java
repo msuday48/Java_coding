@@ -21,5 +21,26 @@ int count=0;
         }
         System.out.println(count);
 System.out.println(result);
+
+        String resul =" ";
+
+        for(int i=0;i<s.length();i++){
+
+            char ch=s.charAt(i);
+
+            if((ch>='1'&&ch<='9')){
+                resul+=ch;
+
+                count++;
+            }
+        }
+
+        System.out.println(resul);
+
+        System.out.println(result+" , "+resul);
     }
+
+
+
+
 }

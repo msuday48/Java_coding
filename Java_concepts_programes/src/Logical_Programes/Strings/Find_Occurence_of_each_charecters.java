@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import static jdk.internal.icu.text.UTF16.getCharCount;
+
 
 public class Find_Occurence_of_each_charecters {
 

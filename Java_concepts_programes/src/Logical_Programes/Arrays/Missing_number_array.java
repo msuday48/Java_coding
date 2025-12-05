@@ -15,7 +15,7 @@ public class Missing_number_array {
             sum1 += a[i];  // sum of array elements
         }
 
-        int n = 5; // full range is 1 to 5
+        int n = 5; // full range is 1l  to 5
         int sum2 = 0;
         for (int i = 1; i <= n; i++) {
             sum2 += i;  // expected sum from 1 to 5

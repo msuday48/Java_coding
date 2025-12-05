@@ -1,9 +1,6 @@
 package Java_concepts_programes.src.Logical_Programes.Arrays;
 
-import java
-        .util.Scanner;
-
-
+import java.util.Scanner;
 public class LinearSearch {
 
     public static void main(String[]args) {

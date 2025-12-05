@@ -1,4 +1,5 @@
 package Java_concepts_programes.src.Logical_Programes.Strings;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -13,10 +14,16 @@ public class TwoSum {
 
             //i=0;, extra=target-[0] : 9-5=4
 
-            int extra= target - nums[i]; //9-4=5;
+            int extra= target - nums[i];
+
+            //9-4=5;
             //true: I got that pair
+
             if(numMap.containsKey(extra)){
-                return new int[]{numMap.get(extra) , i};
+                return new int[]
+                        {
+                        numMap.get(extra) , i
+                        };
             }
             numMap.put(nums[i],i);//2:0 11:1 5:2
         }
@@ -29,5 +36,6 @@ public class TwoSum {
 
         int result[]= findTwoSum(nums,target);
         System.out.println(Arrays.toString(result));
+
     }
 }

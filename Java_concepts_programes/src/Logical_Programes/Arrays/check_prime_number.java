@@ -18,6 +18,7 @@ public class check_prime_number {
                     count++;
                 }
             }
+
             if (count == 2) {  // Prime number has exactly 2 factors: 1 and itself
                 System.out.println(num + " is a prime number");
             } else {
@@ -26,5 +27,6 @@ public class check_prime_number {
         } else {
             System.out.println(num + " is not a prime number");
         }
+
     }
 }

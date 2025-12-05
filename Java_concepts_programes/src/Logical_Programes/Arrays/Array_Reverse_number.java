@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Array_Reverse_number {
     public static void main(String[] args) {
+
+        /*
         Scanner sc = new Scanner(System.in);
 
         // Ask user how many numbers they want to input
@@ -26,5 +28,18 @@ public class Array_Reverse_number {
         }
 
         sc.close();
+        */
+
+
+        // Hardcoded input array
+        int[] numbers = {10, 20, 30, 40, 50};
+
+
+
+        // Print array in reverse order
+        System.out.println("Reversed numbers:");
+        for (int i = numbers.length- 1; i >= 0; i--) {
+            System.out.print(numbers[i] + " ");
+        }
     }
 }
