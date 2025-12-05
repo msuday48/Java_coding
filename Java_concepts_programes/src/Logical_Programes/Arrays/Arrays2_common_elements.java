@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Arrays2_common_elements {
     public static void main(String[] args) {
+
+        /*
         Scanner sc = new Scanner(System.in);
 
         // Input size of first array
@@ -46,6 +48,26 @@ public class Arrays2_common_elements {
         System.out.println("\nSum of common elements: " + sum);
 
         sc.close();
+        */
+
+        int[] no = {1, 2, 3, 4, 5};
+        int[] num = {3, 4, 5, 6, 7};
+
+        int sum = 0; // To hold the sum of common elements
+
+        System.out.println("Common elements in both arrays:");
+        for (int i = 0; i < no.length; i++) {
+            for (int j = 0; j < num.length; j++) {
+                if (no[i] == num[j]) {
+                    sum += no[i];
+                    System.out.print(no[i] + " ");
+                    break; // To avoid duplicate addition
+                }
+            }
+        }
+
+        System.out.println("\nSum of common elements: " + sum);
+
     }
 }
 

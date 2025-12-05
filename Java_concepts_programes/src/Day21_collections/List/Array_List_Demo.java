@@ -35,6 +35,9 @@ public class Array_List_Demo {
         //insert element in the arraylist
         mylist.add(2,"java");
 
+        mylist.remove(2);
+
+
         //Modify element in the arraylist (modify/repace/change)
         mylist.add(2,"python");
        System.out.println("After insertion"+mylist);//[100,10.5,java.welcome,A,true,null]
@@ -53,7 +56,6 @@ public class Array_List_Demo {
         for(Object x: mylist) {
             System.out.println(x);
         }
-
         //Using iterator
         Iterator <Object> it=mylist.iterator();
 
